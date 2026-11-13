@@ -1,0 +1,1408 @@
+{
+  "schema_version": "2.0.0",
+  "license": "CC-BY-ND-4.0 (Benchmark Dataset & Report) / Apache-2.0 (Verification Scripts)",
+  "title": "ZeroPx Core — 2026 FDA CRL Structural Mispricing Index, GLP-1 GxP AI Liability Benchmark & Poseidon2 Commitment Registry",
+  "sole_human_author": "Dr. Vander Geraldo Rodrigues da Cunha Júnior, M.D. (CRM/MG 58.130)",
+  "contact_email": "vgrcjr@gmail.com",
+  "jurisdiction_anchor": "Uberaba/MG, Brazil — Governed by Brazilian Law No. 12.965/2014 (Art. 11) and Law No. 13.810/2019",
+  "ai_provenance_disclosure": "Auxiliary multi-agent computational indexing and Poseidon2-Goldilocks cryptographic sealing performed via ZeroPx GxP-Shield strictly as subordinate analytical software tooling under 1:1 independent verification and sole human authorship of Dr. Vander Geraldo Rodrigues da Cunha Júnior, M.D. (CRM/MG 58.130), pursuant to CFM Resolution No. 2.454/2026 (Arts. 4-V & 7), Law No. 12.842/2013 (Art. 4-VII), ANVISA RDC No. 657/2022, FDA Jan 2025 Draft AI Credibility Guidance, and ICMJE criteria.",
+  "generated_at_utc": "2026-11-13T15:56:30Z",
+  "master_showcase_poseidon2_anchor": {
+    "ledger_file": "public_showcase_master_ledger.jsonl",
+    "entry_count": 10,
+    "pre_seal_poseidon2_merkle_root": "541fabf9dec29147b2402f6b2e2b32d81e6ab7ef04c680486731b4a0a979c22f",
+    "post_seal_poseidon2_merkle_root": "8fb2b50a8daf8409b13707d399789d6f260edc0a3802629bb6a45d042e394193",
+    "physician_signoff_entry_sha256": "3159e34f61e129e1d0bce0cd68f8bff37f244fb9eadeb98382b462e72be5bdc8",
+    "physician_signoff_inclusion_proof": {
+      "operation": "poseidon2_inclusion_proof",
+      "sequence": 8,
+      "entry_sha256": "3159e34f61e129e1d0bce0cd68f8bff37f244fb9eadeb98382b462e72be5bdc8",
+      "leaf_felts": [
+        16224746940647299377,
+        17564030200782568656,
+        9491862789372716159,
+        14464969554912261250
+      ],
+      "proof": [
+        [
+          [
+            4731916795384933205,
+            1735034164581293649,
+            6415051882533026189,
+            16978288030700213986
+          ],
+          "R"
+        ],
+        [
+          [
+            14536656643496110212,
+            282806145399988617,
+            6807974263297675797,
+            7692276890163026207
+          ],
+          "R"
+        ],
+        [
+          [
+            5811181123810858297,
+            18440318555706887541,
+            4322689259976190083,
+            5795404090712388016
+          ],
+          "R"
+        ],
+        [
+          [
+            12520084852964340870,
+            14160218564302436756,
+            7284723735983017541,
+            13111578612109998013
+          ],
+          "L"
+        ]
+      ],
+      "root_hex": "8fb2b50a8daf8409b13707d399789d6f260edc0a3802629bb6a45d042e394193",
+      "root_felts": [
+        685866063572087439,
+        8042717111619368881,
+        11196514063320092198,
+        10610825066866123958
+      ]
+    },
+    "live_audit_2026_poseidon2_merkle_root": "88900857f7ce7bf6b7c5fadaa3f3477ea70c5e9b67c015873d795b92ee3a5baa",
+    "gxp_shield_pade_poseidon2_merkle_root": "16dcd0d0f53e5d75fc1d0e7d1e0d2a9b8bd1f49bc7da93275bc6e9bdab9f460e"
+  },
+  "flagship_unapproved_to_approved_commitments": [
+    {
+      "docket_id": "NDA 220138",
+      "applications": [
+        "NDA 220138"
+      ],
+      "sponsor": "Tris Pharma, Inc.",
+      "market_exposure": "Private Specialty Pharma (U.S. CNS / Narcolepsy Franchise)",
+      "crl_date": "2026-06-15",
+      "fda_reference_ids": [
+        "5817075"
+      ],
+      "openfda_crl_sha256": [
+        "eaec5f20fb91424ac6c8ef1bf37984feff34ca4e7784e752220a5d1b118a2f86"
+      ],
+      "public_crl_gate_summary": "505(b)(2) PK shape discordance vs. RLD + Clinical Cataplexy durability + Human Factors / CMC stability gates.",
+      "estimated_capex_saved_usd": "$35M - $50M (avoids redundant de novo Phase 3 clinical efficacy trial)",
+      "estimated_timeline_compression": "18-24 months compressed to 3-6 month Type A / Quantitative Resubmission window (Trial-Free)",
+      "cryptographic_commitment": {
+        "field": "Goldilocks prime p = 2^64 - 2^32 + 1 (18446744069414584321)",
+        "permutation": "Poseidon2 (t=8, d=7, 256-bit 4-felt digest)",
+        "sole_clinical_author": "Dr. Vander Geraldo Rodrigues da Cunha Júnior, M.D. (CRM/MG 58.130)",
+        "signed_at_utc": "2026-11-13T12:37:50.325669Z",
+        "sealed_ledger_entry_count": 5,
+        "sealed_head_entry_sha256": "8d6c4b049975f163a317fac89c7edfb6b6171445e0bcdb366cab2e40348af213",
+        "approved_poseidon2_merkle_root": "87add03213a2252fbc41510676fce8fae30e616d434308157555737fef35304a",
+        "approved_poseidon2_merkle_root_felts": [
+          3397299697261522311,
+          18079978287921185212,
+          1515535231487119075,
+          5345832060440499573
+        ],
+        "pre_seal_approved_merkle_root": "742bc06a8d1843b5cab26c3cacec544d1d0c791bd1e6936b31e2bb1f2a702b1e",
+        "physician_signoff_leaf_sequence": 3,
+        "physician_signoff_leaf_sha256": "d5f399f6c5068764b61fa99d801712604ff88d93b3076095d63cf037245088b1",
+        "physician_signoff_merkle_inclusion_proof": {
+          "operation": "poseidon2_inclusion_proof",
+          "sequence": 3,
+          "entry_sha256": "d5f399f6c5068764b61fa99d801712604ff88d93b3076095d63cf037245088b1",
+          "leaf_felts": [
+            7243765972964340693,
+            6922621418390233014,
+            10763611577271580751,
+            12792562858033429718
+          ],
+          "proof": [
+            [
+              [
+                14637624955630724360,
+                11411355750693951779,
+                14117502763677230269,
+                17861869291083811077
+              ],
+              "L"
+            ],
+            [
+              [
+                224100683039625831,
+                8419085395379605131,
+                16461262637116096750,
+                18043816665913815245
+              ],
+              "L"
+            ],
+            [
+              [
+                3186990187301681246,
+                5320897956282954643,
+                12874879475249485199,
+                5161726336813180367
+              ],
+              "R"
+            ]
+          ],
+          "root_hex": "87add03213a2252fbc41510676fce8fae30e616d434308157555737fef35304a",
+          "root_felts": [
+            3397299697261522311,
+            18079978287921185212,
+            1515535231487119075,
+            5345832060440499573
+          ]
+        },
+        "zero_knowledge_confidentiality_notice": "Underlying clinical, pharmacometric, analytical, and CMC dossier leaves (sequences 0-2) are cryptographically committed via one-way SHA-256 -> Poseidon2 hashes and withheld from public disclosure pending mutual NDA and commercial licensing."
+      }
+    },
+    {
+      "docket_id": "NDA 217644",
+      "applications": [
+        "NDA 217644"
+      ],
+      "sponsor": "Xspray Pharma AB",
+      "market_exposure": "Public Biotech — Nasdaq Stockholm: XSPRAY.ST (CML / Oncology)",
+      "crl_date": "2026-06-04",
+      "fda_reference_ids": [
+        "5810235"
+      ],
+      "openfda_crl_sha256": [
+        "44ce381ccf2c0437a8326677c5f870b3698a8167390f0fc44fb39d08e5d03d68"
+      ],
+      "public_crl_gate_summary": "505(b)(2) intermediate-strength exposure deficit (~24-36% lower AUC/Cmax at 100 mg) + third-party CGMP facility hold.",
+      "estimated_capex_saved_usd": "$25M - $40M (avoids multi-year clinical efficacy/safety trial; <$1.5M targeted bridging envelope)",
+      "estimated_timeline_compression": "18-24 months compressed to 6-month Class 2 Resubmission window",
+      "cryptographic_commitment": {
+        "field": "Goldilocks prime p = 2^64 - 2^32 + 1 (18446744069414584321)",
+        "permutation": "Poseidon2 (t=8, d=7, 256-bit 4-felt digest)",
+        "sole_clinical_author": "Dr. Vander Geraldo Rodrigues da Cunha Júnior, M.D. (CRM/MG 58.130)",
+        "signed_at_utc": "2026-11-13T13:41:36.598091Z",
+        "sealed_ledger_entry_count": 5,
+        "sealed_head_entry_sha256": "af947629af59915cb740342e050fca622c2f1c8918ca17888ee9e85571ad5af0",
+        "approved_poseidon2_merkle_root": "d924193ac73c00f8e5c3c857258ccf52931636ac1d4855f0b634e8989573341d",
+        "approved_poseidon2_merkle_root_felts": [
+          17870350147777012953,
+          5967142123303650277,
+          17317827234403587731,
+          2104434012241540278
+        ],
+        "pre_seal_approved_merkle_root": "59e43b8df1f741167ed9fe506117949d4812cccee7f7c010ca126f143228235e",
+        "physician_signoff_leaf_sequence": 3,
+        "physician_signoff_leaf_sha256": "ded1519ffe784d17640e254127e78caefcf416fbc02203c955f2a641a288c595",
+        "physician_signoff_merkle_inclusion_proof": {
+          "operation": "poseidon2_inclusion_proof",
+          "sequence": 3,
+          "entry_sha256": "ded1519ffe784d17640e254127e78caefcf416fbc02203c955f2a641a288c595",
+          "leaf_felts": [
+            1679131271069028830,
+            12577682015121641060,
+            14484459038795298044,
+            10792182312530801237
+          ],
+          "proof": [
+            [
+              [
+                5773281384962929036,
+                3455226025462873140,
+                10833966932537105970,
+                1109627537971586130
+              ],
+              "L"
+            ],
+            [
+              [
+                285813808387765748,
+                5579249017790332410,
+                11692169888666860480,
+                621132475099638831
+              ],
+              "L"
+            ],
+            [
+              [
+                7484305565440584192,
+                13362502608940722651,
+                17724976444565350455,
+                18117207283093077289
+              ],
+              "R"
+            ]
+          ],
+          "root_hex": "d924193ac73c00f8e5c3c857258ccf52931636ac1d4855f0b634e8989573341d",
+          "root_felts": [
+            17870350147777012953,
+            5967142123303650277,
+            17317827234403587731,
+            2104434012241540278
+          ]
+        },
+        "zero_knowledge_confidentiality_notice": "Underlying clinical, pharmacometric, analytical, and CMC dossier leaves (sequences 0-2) are cryptographically committed via one-way SHA-256 -> Poseidon2 hashes and withheld from public disclosure pending mutual NDA and commercial licensing."
+      }
+    },
+    {
+      "docket_id": "NDA 220544",
+      "applications": [
+        "NDA 220544"
+      ],
+      "sponsor": "Ascelia Pharma AB",
+      "market_exposure": "Public Biotech — Nasdaq Stockholm: ACE.ST (Diagnostic MRI / Hepatic Oncology)",
+      "crl_date": "2026-07-02",
+      "fda_reference_ids": [
+        "5827914"
+      ],
+      "openfda_crl_sha256": [
+        "269834775f7bf3cee492f3bd915ad5f654e17c22a62a2d875fd402db105a52d8"
+      ],
+      "public_crl_gate_summary": "Phase 3 blinded image re-evaluation operational integrity & reader correlation findings (zero new patient dosing defects).",
+      "estimated_capex_saved_usd": "$30M - $45M (avoids repeat Phase 3 imaging trial; <$1.2M trial-free clean-room re-evaluation path)",
+      "estimated_timeline_compression": "24+ months compressed to 4-6 month Type A / Clean-Room Resubmission window (Trial-Free)",
+      "cryptographic_commitment": {
+        "field": "Goldilocks prime p = 2^64 - 2^32 + 1 (18446744069414584321)",
+        "permutation": "Poseidon2 (t=8, d=7, 256-bit 4-felt digest)",
+        "sole_clinical_author": "Dr. Vander Geraldo Rodrigues da Cunha Júnior, M.D. (CRM/MG 58.130)",
+        "signed_at_utc": "2026-11-13T13:41:36.634734Z",
+        "sealed_ledger_entry_count": 5,
+        "sealed_head_entry_sha256": "204d6992d84c44ff9c719ba4890ce8ac5cfdd65ec79e18cd414ebacec2d7e5a5",
+        "approved_poseidon2_merkle_root": "ebef5dd47ceb78f37b203f69c82a9a594ac120f734ba88d570af4a50ca33c2fe",
+        "approved_poseidon2_merkle_root_felts": [
+          17544031269793165291,
+          6456520056036597883,
+          15386752863558484298,
+          18357291975139045232
+        ],
+        "pre_seal_approved_merkle_root": "5c892f792786e921f4cd6aca255adc6080e3bf614037e29f2117d69545bcc933",
+        "physician_signoff_leaf_sequence": 3,
+        "physician_signoff_leaf_sha256": "586d2b68d85b1ff0dcb5ba1c2a2ee2bb7a308f1127f54dc5f1d57af3ff76bb66",
+        "physician_signoff_merkle_inclusion_proof": {
+          "operation": "poseidon2_inclusion_proof",
+          "sequence": 3,
+          "entry_sha256": "586d2b68d85b1ff0dcb5ba1c2a2ee2bb7a308f1127f54dc5f1d57af3ff76bb66",
+          "leaf_felts": [
+            17302649278399475032,
+            13538434188234634716,
+            14217289146825650298,
+            7402641254187193841
+          ],
+          "proof": [
+            [
+              [
+                17434309629964355560,
+                11539496096301435863,
+                5562032366025505736,
+                4940753501640830481
+              ],
+              "L"
+            ],
+            [
+              [
+                5094561993586378622,
+                15336310831101671794,
+                11770713342168813249,
+                10084658472226388144
+              ],
+              "L"
+            ],
+            [
+              [
+                17469309486529308438,
+                17805742690052124624,
+                7022323631959396450,
+                10398096586814494316
+              ],
+              "R"
+            ]
+          ],
+          "root_hex": "ebef5dd47ceb78f37b203f69c82a9a594ac120f734ba88d570af4a50ca33c2fe",
+          "root_felts": [
+            17544031269793165291,
+            6456520056036597883,
+            15386752863558484298,
+            18357291975139045232
+          ]
+        },
+        "zero_knowledge_confidentiality_notice": "Underlying clinical, pharmacometric, analytical, and CMC dossier leaves (sequences 0-2) are cryptographically committed via one-way SHA-256 -> Poseidon2 hashes and withheld from public disclosure pending mutual NDA and commercial licensing."
+      }
+    },
+    {
+      "docket_id": "NDA 219107",
+      "applications": [
+        "NDA 219107"
+      ],
+      "sponsor": "Apiject Systems Corp.",
+      "market_exposure": "Private Combination-Product Platform (U.S. Hospital / Perioperative Injectables)",
+      "crl_date": "2026-07-21",
+      "fda_reference_ids": [
+        "5838071"
+      ],
+      "openfda_crl_sha256": [
+        "98bed93d78ea4b017a2e5d5310369a9491bfb947548ddd4a3385f797d95236ba"
+      ],
+      "public_crl_gate_summary": "Drug-device combination product Human Factors packaging/needle-selection use error + CMC/device constituent control files (zero clinical/PAI holds).",
+      "estimated_capex_saved_usd": "$15M - $25M (zero clinical or PK trials required; <$0.9M non-clinical HF & CMC amendment envelope)",
+      "estimated_timeline_compression": "12-18 months iterative device/HF rework compressed to 6-month Class 2 Resubmission window",
+      "cryptographic_commitment": {
+        "field": "Goldilocks prime p = 2^64 - 2^32 + 1 (18446744069414584321)",
+        "permutation": "Poseidon2 (t=8, d=7, 256-bit 4-felt digest)",
+        "sole_clinical_author": "Dr. Vander Geraldo Rodrigues da Cunha Júnior, M.D. (CRM/MG 58.130)",
+        "signed_at_utc": "2026-11-13T14:41:20.322547Z",
+        "sealed_ledger_entry_count": 5,
+        "sealed_head_entry_sha256": "be4b556c289385d9440a1bb29bd2de7e1e20b6342919a86ca4763c5470bc2fbe",
+        "approved_poseidon2_merkle_root": "eff780b42af92c07392f0eb4604fb80a03a452fc19ba6cac0506e9cb9b86bd4e",
+        "approved_poseidon2_merkle_root_felts": [
+          517062019053058031,
+          772454612850323257,
+          12424510092778578947,
+          5673839109255792133
+        ],
+        "pre_seal_approved_merkle_root": "45eb089ee2a6d972992255e066a63458064297679778983b94cbc11533db023f",
+        "physician_signoff_leaf_sequence": 3,
+        "physician_signoff_leaf_sha256": "4b8475363804b5dcf8397dc3817aea399c01a498406fe87fd0783ff1336ce8a8",
+        "physician_signoff_merkle_inclusion_proof": {
+          "operation": "poseidon2_inclusion_proof",
+          "sequence": 3,
+          "entry_sha256": "4b8475363804b5dcf8397dc3817aea399c01a498406fe87fd0783ff1336ce8a8",
+          "leaf_felts": [
+            15903622298607125579,
+            4173282702461319672,
+            9216738960643195292,
+            12171096963315366096
+          ],
+          "proof": [
+            [
+              [
+                1290509088185870718,
+                13922428331070194877,
+                16181587810288148285,
+                7394171772124838731
+              ],
+              "L"
+            ],
+            [
+              [
+                5104260973620600425,
+                3834616176632376079,
+                12564994354318200746,
+                5814393961544094173
+              ],
+              "L"
+            ],
+            [
+              [
+                4563664427858392158,
+                16084535578184773598,
+                10865007859603222764,
+                6688413323816553526
+              ],
+              "R"
+            ]
+          ],
+          "root_hex": "eff780b42af92c07392f0eb4604fb80a03a452fc19ba6cac0506e9cb9b86bd4e",
+          "root_felts": [
+            517062019053058031,
+            772454612850323257,
+            12424510092778578947,
+            5673839109255792133
+          ]
+        },
+        "zero_knowledge_confidentiality_notice": "Underlying clinical, pharmacometric, analytical, and CMC dossier leaves (sequences 0-2) are cryptographically committed via one-way SHA-256 -> Poseidon2 hashes and withheld from public disclosure pending mutual NDA and commercial licensing."
+      }
+    },
+    {
+      "docket_id": "NDA 216586 + BLA 761308",
+      "applications": [
+        "NDA 216586",
+        "BLA 761308"
+      ],
+      "sponsor": "Elevar Therapeutics Inc. (HLB) & Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+      "market_exposure": "Public Oncology — HLB (KOSDAQ: 028300) / Hengrui (SHA: 600276; HKEX: 1276) — Active Cycle-4 PDUFA: 2027-04-09",
+      "crl_date": "2026-07-09",
+      "fda_reference_ids": [
+        "5830543",
+        "5830559"
+      ],
+      "openfda_crl_sha256": [
+        "679583c5c44b75c16819c1d423e8b0d5b386bf3cf89bd403a1852700911ead31",
+        "bfc73251c02df21b58f62983c5addce9d4861b64735ff20ac36d73151e54043c"
+      ],
+      "public_crl_gate_summary": "Biologics BLA 761308 facility cleared; small-molecule NDA 216586 gated on dual CGMP surveillance + PAI inspection outcome prior to April 9, 2027 PDUFA.",
+      "estimated_capex_saved_usd": "Protects $500M+ peak U.S. 1L uHCC franchise & averts $150M+ Cycle-4 CGMP hold delay cost",
+      "estimated_timeline_compression": "Locks Q4 2026 - Q1 2027 Pre-PAI & CGMP Surveillance readiness ahead of April 9, 2027 PDUFA goal date",
+      "cryptographic_commitment": {
+        "field": "Goldilocks prime p = 2^64 - 2^32 + 1 (18446744069414584321)",
+        "permutation": "Poseidon2 (t=8, d=7, 256-bit 4-felt digest)",
+        "sole_clinical_author": "Dr. Vander Geraldo Rodrigues da Cunha Júnior, M.D. (CRM/MG 58.130)",
+        "signed_at_utc": "2026-11-13T14:41:20.434882Z",
+        "sealed_ledger_entry_count": 5,
+        "sealed_head_entry_sha256": "e8dcea18c586ad7491940c61cd153d67f9ed5dd14605668897d81ea01580e5ef",
+        "approved_poseidon2_merkle_root": "ba7252bd338bd15d87cf3b7bbb09ec17a3059274e4056d31a4781eca46aec67c",
+        "approved_poseidon2_merkle_root_felts": [
+          6760337569995715258,
+          1723763458207108999,
+          3561509359086339491,
+          8991065325153712292
+        ],
+        "pre_seal_approved_merkle_root": "16f96372410286102a5ad451de9dfc85e91e81a11099e9e04a962f614116e69b",
+        "physician_signoff_leaf_sequence": 3,
+        "physician_signoff_leaf_sha256": "704d00dde099fcf9ac2c8bde2e6d03bf10b3eb4caa8e98971f6375901c1d9bd2",
+        "physician_signoff_merkle_inclusion_proof": {
+          "operation": "poseidon2_inclusion_proof",
+          "sequence": 3,
+          "entry_sha256": "704d00dde099fcf9ac2c8bde2e6d03bf10b3eb4caa8e98971f6375901c1d9bd2",
+          "leaf_felts": [
+            18013441800634649968,
+            13763964934243953836,
+            10923637758273237776,
+            15175755377874920223
+          ],
+          "proof": [
+            [
+              [
+                17231306592874061224,
+                6308164588570632809,
+                2345155812408200521,
+                13787847077420919771
+              ],
+              "L"
+            ],
+            [
+              [
+                7799383279998495906,
+                4590838663583008737,
+                16745125978431626610,
+                1698911689342276741
+              ],
+              "L"
+            ],
+            [
+              [
+                18338622302054168684,
+                12948610498891945812,
+                17861665871679437500,
+                10075535212954018172
+              ],
+              "R"
+            ]
+          ],
+          "root_hex": "ba7252bd338bd15d87cf3b7bbb09ec17a3059274e4056d31a4781eca46aec67c",
+          "root_felts": [
+            6760337569995715258,
+            1723763458207108999,
+            3561509359086339491,
+            8991065325153712292
+          ]
+        },
+        "zero_knowledge_confidentiality_notice": "Underlying clinical, pharmacometric, analytical, and CMC dossier leaves (sequences 0-2) are cryptographically committed via one-way SHA-256 -> Poseidon2 hashes and withheld from public disclosure pending mutual NDA and commercial licensing."
+      }
+    },
+    {
+      "docket_id": "NDA 218705",
+      "applications": [
+        "NDA 218705"
+      ],
+      "sponsor": "ITM Solucin GmbH",
+      "market_exposure": "Private Radiopharmaceutical Oncology Leader (Targeted Radionuclide Therapy / GEP-NETs)",
+      "crl_date": "2026-08-07",
+      "fda_reference_ids": [
+        "5848620"
+      ],
+      "openfda_crl_sha256": [
+        "24fa6f00441a2973ce6e65b044baf7d186770ec88ad2f8cb2cf49098e0ba1bfa"
+      ],
+      "public_crl_gate_summary": "Product Quality Microbiology (sterility/endotoxin controls in radiopharmaceutical matrix) + commercial facility PAI Form 483 remediation (zero clinical/dosimetric holds).",
+      "estimated_capex_saved_usd": "Averts $100M+ delayed U.S. GEP-NET launch loss; <$1.4M trial-free microbiology & PAI remediation envelope",
+      "estimated_timeline_compression": "12-18 months CMC/PAI stall compressed to synchronized 6-month Class 2 Resubmission window",
+      "cryptographic_commitment": {
+        "field": "Goldilocks prime p = 2^64 - 2^32 + 1 (18446744069414584321)",
+        "permutation": "Poseidon2 (t=8, d=7, 256-bit 4-felt digest)",
+        "sole_clinical_author": "Dr. Vander Geraldo Rodrigues da Cunha Júnior, M.D. (CRM/MG 58.130)",
+        "signed_at_utc": "2026-11-13T14:41:20.546925Z",
+        "sealed_ledger_entry_count": 5,
+        "sealed_head_entry_sha256": "20600acfbf040e00d6c11a1f0ad42266f6e08faaf39c5323f837b9a3dbf404d1",
+        "approved_poseidon2_merkle_root": "f583ac7ec7df435fe317e50d2306f3acaee668cdb513e00a71e75ae7c0c5c0f4",
+        "approved_poseidon2_merkle_root_felts": [
+          6864576304959489013,
+          12462311341491034083,
+          783648006718678702,
+          17636313573088749425
+        ],
+        "pre_seal_approved_merkle_root": "f306b96a6bfa1af48b0560fe4105b9982b0aa7e9b14a77222a5c39ffaa7c6270",
+        "physician_signoff_leaf_sequence": 3,
+        "physician_signoff_leaf_sha256": "e5e8c405d2ee98fa4db43caf84bac4282a228b25902212c5e62abfa3f693ffbf",
+        "physician_signoff_merkle_inclusion_proof": {
+          "operation": "poseidon2_inclusion_proof",
+          "sequence": 3,
+          "entry_sha256": "e5e8c405d2ee98fa4db43caf84bac4282a228b25902212c5e62abfa3f693ffbf",
+          "leaf_felts": [
+            18057445291749337317,
+            2937677935990846541,
+            14200450577553105450,
+            13834939267823905510
+          ],
+          "proof": [
+            [
+              [
+                6204101486180015435,
+                94677819830349635,
+                9344767408415509798,
+                11939418089362278530
+              ],
+              "L"
+            ],
+            [
+              [
+                8687113092787512010,
+                18350426435127058573,
+                1017906107359376507,
+                13164170568464206153
+              ],
+              "L"
+            ],
+            [
+              [
+                11266216756505383543,
+                16095534638819679284,
+                6833560721868749313,
+                17553537603075988416
+              ],
+              "R"
+            ]
+          ],
+          "root_hex": "f583ac7ec7df435fe317e50d2306f3acaee668cdb513e00a71e75ae7c0c5c0f4",
+          "root_felts": [
+            6864576304959489013,
+            12462311341491034083,
+            783648006718678702,
+            17636313573088749425
+          ]
+        },
+        "zero_knowledge_confidentiality_notice": "Underlying clinical, pharmacometric, analytical, and CMC dossier leaves (sequences 0-2) are cryptographically committed via one-way SHA-256 -> Poseidon2 hashes and withheld from public disclosure pending mutual NDA and commercial licensing."
+      }
+    }
+  ],
+  "gxp_shield_glp1_pade_2026_commitment": {
+    "audit_id": "ZEROPX-GXP-SHIELD-GLP1-FAERS-2026",
+    "regulatory_scope": "21 CFR 314.80(c)(1) 15-Day PADE Alert SLA & 21 CFR 211.22(c) Quality Unit HITL AI Governance",
+    "sole_clinical_author": "Dr. Vander Geraldo Rodrigues da Cunha Júnior, M.D. (CRM/MG 58.130)",
+    "signed_at_utc": "2026-11-13T14:48:14.538901Z",
+    "approved_poseidon2_merkle_root": "16dcd0d0f53e5d75fc1d0e7d1e0d2a9b8bd1f49bc7da93275bc6e9bdab9f460e",
+    "pre_seal_poseidon2_merkle_root": "ef3f44326ec22e59774ffa53dbc3d30855b5138321822c24217b4921cddd54cf",
+    "ledger_entry_count": 3,
+    "physician_signoff_leaf_sequence": 1,
+    "physician_signoff_leaf_sha256": "eb07d58e21908cbadfd68f832706514cc9cfc38e2aaf2d7b67cddd9c77d7ac15",
+    "physician_signoff_merkle_inclusion_proof": {
+      "operation": "poseidon2_inclusion_proof",
+      "sequence": 1,
+      "entry_sha256": "eb07d58e21908cbadfd68f832706514cc9cfc38e2aaf2d7b67cddd9c77d7ac15",
+      "leaf_felts": [
+        13442277461598734315,
+        5499183386776819423,
+        8875943037935800265,
+        1561860079523581287
+      ],
+      "proof": [
+        [
+          [
+            5232738998214977290,
+            14536369266914331807,
+            17963232224959425741,
+            18123877048442139871
+          ],
+          "L"
+        ],
+        [
+          [
+            17086500784240594673,
+            5040926234982372653,
+            11664727911275613960,
+            1064384251373611980
+          ],
+          "R"
+        ]
+      ],
+      "root_hex": "16dcd0d0f53e5d75fc1d0e7d1e0d2a9b8bd1f49bc7da93275bc6e9bdab9f460e",
+      "root_felts": [
+        8456984900762917910,
+        11180763449498934780,
+        2851863539905515915,
+        1028685124875175515
+      ]
+    },
+    "macro_public_findings": {
+      "combined_2025_2026_serious_incretin_faers_reports": 37134,
+      "semaglutide_active_ingredient_serious_reports_2025_2026": 15559,
+      "tirzepatide_active_ingredient_serious_reports_2025_2026": 21575,
+      "semaglutide_generic_mapped_live_universe_2025_2026": 21012,
+      "deterministic_deep_audit_unique_serious_cases": 222,
+      "serious_and_unexpected_vs_active_uspi_mandatory_15d_lock": 217,
+      "mah_non_expedited_serious_unlabeled_exposures_detected": 95,
+      "mah_novo_emotional_distress_serious_non_expedited_unlabeled": 588,
+      "all_sender_semaglutide_emotional_distress_serious_non_expedited": 602,
+      "semaglutide_naion_optic_ischaemic_neuropathy_serious_cohort": 831,
+      "mah_novo_impaired_gastric_emptying_serious_non_expedited_lexical_drift": 1015,
+      "mah_lilly_impaired_gastric_emptying_serious_non_expedited_lexical_drift": 234,
+      "sentinel_serious_subcohort_counts_in_222_audit": {
+        "HOSPITALIZATION": 104,
+        "NAION_OR_SEVERE_VISUAL_LOSS": 56,
+        "CVA_OR_STROKE": 45,
+        "FATAL_OUTCOME": 6
+      }
+    },
+    "commercial_licensing_boundary": "Individual case-level forensic audit matrices (N=222 / N=95 safetyreportid evidentiary tables), deterministic MedDRA-to-USPI expectedness equivalence dictionaries, and the executable ZeroPx GxP-Shield state-machine engine are proprietary commercial assets licensed under enterprise agreement ($150k-$500k MDL/Securities Forensic Engagement; $250k-$1.5M/yr Enterprise GxP-Shield License)."
+  },
+  "fda_2026_unapproved_crl_index_33": [
+    {
+      "iso_letter_date": "2026-01-09",
+      "letter_date_raw": "01/09/2026",
+      "application_number": "BL 125745",
+      "company_name": "Pierre Fabre Pharmaceuticals Inc.",
+      "fda_reference_id": "CBER / Unindexed",
+      "file_name": "CRL_BLA125745_20260109.pdf",
+      "detected_crl_sections": [],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "d0fa01beaf9822d48379d945c3ba8fe5b371ec50bf6b8180acf9746293414134",
+      "index_rank_2026": 1
+    },
+    {
+      "iso_letter_date": "2026-01-28",
+      "letter_date_raw": "01/28/2026",
+      "application_number": "NDA 219398",
+      "company_name": "Corcept Therapeutics",
+      "fda_reference_id": "5735859",
+      "file_name": "CRL_NDA219398_20260128.pdf",
+      "detected_crl_sections": [
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "86ae27acd449f7a5a4042e99e953e028357e5d7d3c52d9c8b0379059f7e36d98",
+      "index_rank_2026": 2
+    },
+    {
+      "iso_letter_date": "2026-01-30",
+      "letter_date_raw": "01/30/2026",
+      "application_number": "NDA 219870",
+      "company_name": "Aquestive Therapeutics Inc.",
+      "fda_reference_id": "5737447",
+      "file_name": "CRL_NDA219870_20260130.pdf",
+      "detected_crl_sections": [
+        "CLINICAL",
+        "CLINICAL PHARMACOLOGY",
+        "HUMAN FACTORS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "DEVICE_CONSTITUENT_HUMAN_FACTORS",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "08237bf3cf6aaa7590d99e8075aacf46e538be05c504e81a0b6dcd04a8fb80a6",
+      "index_rank_2026": 3
+    },
+    {
+      "iso_letter_date": "2026-02-07",
+      "letter_date_raw": "02/07/2026",
+      "application_number": "BL 125840",
+      "company_name": "REGENXBIO, Inc.",
+      "fda_reference_id": "CBER / Unindexed",
+      "file_name": "CRL_BLA125840_20260207.pdf",
+      "detected_crl_sections": [],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "b30a377eed71e9a439f662adf105fd960c5f6e83c0e0bab48e9bbb67df2465b9",
+      "index_rank_2026": 4
+    },
+    {
+      "iso_letter_date": "2026-02-13",
+      "letter_date_raw": "02/13/2026",
+      "application_number": "NDA 220707",
+      "company_name": "Disc Medicine, Inc.",
+      "fda_reference_id": "5745792",
+      "file_name": "CRL_NDA220707_20260213.pdf",
+      "detected_crl_sections": [
+        "CLINICAL",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "9fed6fa031c9a139875a53f29e99500a3cdcb233660caa030454692582d1e856",
+      "index_rank_2026": 5
+    },
+    {
+      "iso_letter_date": "2026-02-26",
+      "letter_date_raw": "02/26/2026",
+      "application_number": "BLA 761403",
+      "company_name": "Amphastar Pharmaceuticals, Inc.",
+      "fda_reference_id": "5753400",
+      "file_name": "CRL_BLA761403_20260226.pdf",
+      "detected_crl_sections": [
+        "CLINICAL",
+        "CLINICAL PHARMACOLOGY",
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "a9bb3639c5338c1c3fde384654c15f2bbf03b9b16d61e49ebc16ab79a936ee68",
+      "index_rank_2026": 6
+    },
+    {
+      "iso_letter_date": "2026-02-27",
+      "letter_date_raw": "02/27/2026",
+      "application_number": "BLA 761253",
+      "company_name": "Ferring Pharmaceuticals Inc.",
+      "fda_reference_id": "5753597",
+      "file_name": "CRL_BLA761253_20260227.pdf",
+      "detected_crl_sections": [
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "1bb04fc15ac784999a182eab6a6ebb353d2856e007ead5e4b936a4f693d0be89",
+      "index_rank_2026": 7
+    },
+    {
+      "iso_letter_date": "2026-02-27",
+      "letter_date_raw": "02/27/2026",
+      "application_number": "NDA 214610",
+      "company_name": "Fresenius Kabi USA, LLC",
+      "fda_reference_id": "5753609",
+      "file_name": "CRL_NDA214610_20260227.pdf",
+      "detected_crl_sections": [
+        "NONCLINICAL",
+        "PRODUCT QUALITY",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "ec0fecefa462e667f6707cfd16dbb94ed2b4e034e3977d7deb9ad0f6c56df520",
+      "index_rank_2026": 8
+    },
+    {
+      "iso_letter_date": "2026-02-27",
+      "letter_date_raw": "02/27/2026",
+      "application_number": "NDA 215818",
+      "company_name": "Fresenius Kabi USA, LLC",
+      "fda_reference_id": "5753607",
+      "file_name": "CRL_NDA215818_20260227.pdf",
+      "detected_crl_sections": [
+        "NONCLINICAL",
+        "PRODUCT QUALITY",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "0eba19ff3968c9f425145e2b68018ecf758b44247a6a80fb319dc3ea00330a3f",
+      "index_rank_2026": 9
+    },
+    {
+      "iso_letter_date": "2026-02-27",
+      "letter_date_raw": "02/27/2026",
+      "application_number": "Redacted (Under Review for Release)",
+      "company_name": "Chiesi Farmaceutici S.p.A",
+      "fda_reference_id": "CBER / Unindexed",
+      "file_name": "Under Review for Release",
+      "detected_crl_sections": [],
+      "structural_deficiency_domains": [],
+      "estimated_resubmission_class": "CLASS_1_2_MONTH_CANDIDATE",
+      "openfda_canonical_sha256": "75d0e6c5d88b49f7be336cf3649b3eb08a2ba1f930c2c0f9cfc1ac8ae88f6515",
+      "index_rank_2026": 10
+    },
+    {
+      "iso_letter_date": "2026-03-05",
+      "letter_date_raw": "03/05/2026",
+      "application_number": "NDA 220140",
+      "company_name": "Rosemont Pharmaceuticals Holdings, Inc.",
+      "fda_reference_id": "5757501",
+      "file_name": "CRL_NDA220140_20260305.pdf",
+      "detected_crl_sections": [
+        "FACILITY INSPECTIONS",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "1e9b36d714be3d9313b336ed70f60459ba1c1122c30f236fed9bdb66092dd12a",
+      "index_rank_2026": 11
+    },
+    {
+      "iso_letter_date": "2026-03-16",
+      "letter_date_raw": "03/16/2026",
+      "application_number": "NDA 216442",
+      "company_name": "Aldeyra Therapeutics, Inc.",
+      "fda_reference_id": "5763508",
+      "file_name": "CRL_NDA216442_20260316.pdf",
+      "detected_crl_sections": [
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "04d79b3d275b291776b10946889c84b6399559e3948f41cacd2df84b5cafdb82",
+      "index_rank_2026": 12
+    },
+    {
+      "iso_letter_date": "2026-04-10",
+      "letter_date_raw": "04/10/2026",
+      "application_number": "BL 125827",
+      "company_name": "Replimune, Inc.",
+      "fda_reference_id": "CBER / Unindexed",
+      "file_name": "CRL_BLA125827_20260410.pdf",
+      "detected_crl_sections": [
+        "CLINICAL"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "cb9849a71bc3ae803af2bad8d3be7db534511e7225b17dbacda668be50a01500",
+      "index_rank_2026": 13
+    },
+    {
+      "iso_letter_date": "2026-04-10",
+      "letter_date_raw": "04/10/2026",
+      "application_number": "BLA 761401",
+      "company_name": "Telix Pharmaceuticals (US) Inc.",
+      "fda_reference_id": "5778919",
+      "file_name": "CRL_BLA761401_20260410.pdf",
+      "detected_crl_sections": [
+        "CLINICAL",
+        "CLINICAL PHARMACOLOGY",
+        "PRODUCT QUALITY",
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "bea5aea2da89cab0a2a3c19ba6893e0f3239d4fd12ff2f2fcc9d04ad0406e7ee",
+      "index_rank_2026": 14
+    },
+    {
+      "iso_letter_date": "2026-04-13",
+      "letter_date_raw": "04/13/2026",
+      "application_number": "NDA 220045",
+      "company_name": "Eagle Pharmaceuticals, Inc.",
+      "fda_reference_id": "5779649",
+      "file_name": "CRL_NDA220045_20260413_Redacted.pdf",
+      "detected_crl_sections": [
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "eac70e742dbb67d693f5a7fbd241d5cd8498decb111f79db3e7367b4776eefb9",
+      "index_rank_2026": 15
+    },
+    {
+      "iso_letter_date": "2026-04-22",
+      "letter_date_raw": "04/22/2026",
+      "application_number": "BLA 761459",
+      "company_name": "AbbVie Inc.",
+      "fda_reference_id": "5785294",
+      "file_name": "CRL_BLA761459_20260422.pdf",
+      "detected_crl_sections": [
+        "PRODUCT QUALITY",
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "56fab4f321525d39b8df9ea572188aa5958ade3026dd15bddeaf487bfdc36326",
+      "index_rank_2026": 16
+    },
+    {
+      "iso_letter_date": "2026-04-23",
+      "letter_date_raw": "04/23/2026",
+      "application_number": "NDA 220304",
+      "company_name": "Grace Therapeutics U.S., Inc.",
+      "fda_reference_id": "5785855",
+      "file_name": "CRL_NDA220304_20260423_Redacted.pdf",
+      "detected_crl_sections": [
+        "NONCLINICAL",
+        "PRODUCT QUALITY",
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "8724e1cba527ce62044df58821bec99bfdf8e230c375e6bc5efcee4422756a10",
+      "index_rank_2026": 17
+    },
+    {
+      "iso_letter_date": "2026-05-15",
+      "letter_date_raw": "05/15/2026",
+      "application_number": "NDA 217363",
+      "company_name": "Ocuvex Therapeutics, Inc.",
+      "fda_reference_id": "5799106",
+      "file_name": "CRL_NDA217363_20260515_Redacted.pdf",
+      "detected_crl_sections": [
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "e90d6d2abe8ba3715df7fdeb2cd02f5258ecce77b3d84bfe9f3091ca6e9dd63d",
+      "index_rank_2026": 18
+    },
+    {
+      "iso_letter_date": "2026-05-29",
+      "letter_date_raw": "05/29/2026",
+      "application_number": "NDA 220283",
+      "company_name": "Cingulate Therapeutics, LLC",
+      "fda_reference_id": "5806800",
+      "file_name": "CRL_NDA220283_20260529_Redacted.pdf",
+      "detected_crl_sections": [
+        "PRODUCT QUALITY",
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "aa8c39bdd0e4f2b4bd5577888992fe0540f1241281b6766c646c8f6e73b462a7",
+      "index_rank_2026": 19
+    },
+    {
+      "iso_letter_date": "2026-06-04",
+      "letter_date_raw": "06/04/2026",
+      "application_number": "NDA 217644",
+      "company_name": "Xspray Pharma AB",
+      "fda_reference_id": "5810235",
+      "file_name": "CRL_NDA217644_20260604_Redacted.pdf",
+      "detected_crl_sections": [
+        "CLINICAL",
+        "CLINICAL PHARMACOLOGY",
+        "PRODUCT QUALITY",
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "44ce381ccf2c0437a8326677c5f870b3698a8167390f0fc44fb39d08e5d03d68",
+      "index_rank_2026": 20
+    },
+    {
+      "iso_letter_date": "2026-06-10",
+      "letter_date_raw": "06/10/2026",
+      "application_number": "NDA 218600",
+      "company_name": "Bridge Regulatory Affairs, LLC",
+      "fda_reference_id": "5813891",
+      "file_name": "CRL_NDA218600_20260610_Redacted.pdf",
+      "detected_crl_sections": [
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "6d5f709f81587a248500cc3e3404b2b5bc0b3587c7881c6e129d322d06f55aa5",
+      "index_rank_2026": 21
+    },
+    {
+      "iso_letter_date": "2026-06-15",
+      "letter_date_raw": "06/15/2026",
+      "application_number": "NDA 220138",
+      "company_name": "Tris Pharma, Inc.",
+      "fda_reference_id": "5817075",
+      "file_name": "CRL_NDA220138_20260615_Redacted.pdf",
+      "detected_crl_sections": [
+        "CLINICAL",
+        "NONCLINICAL",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "DEVICE_CONSTITUENT_HUMAN_FACTORS",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "eaec5f20fb91424ac6c8ef1bf37984feff34ca4e7784e752220a5d1b118a2f86",
+      "index_rank_2026": 22
+    },
+    {
+      "iso_letter_date": "2026-06-20",
+      "letter_date_raw": "06/20/2026",
+      "application_number": "NDA 218995",
+      "company_name": "Achieve Life Sciences, Inc.",
+      "fda_reference_id": "5819419",
+      "file_name": "CRL_NDA218995_20260620_Redacted.pdf",
+      "detected_crl_sections": [
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "e8730b58c710bb8f961cd6dcf80126c2f1317e5809b8752f59166c98b8eb38a6",
+      "index_rank_2026": 23
+    },
+    {
+      "iso_letter_date": "2026-06-23",
+      "letter_date_raw": "06/23/2026",
+      "application_number": "BLA 761266",
+      "company_name": "Tanvex BioPharma USA, Inc.",
+      "fda_reference_id": "5820928",
+      "file_name": "CRL_BLA761266_20260623_Redacted.pdf",
+      "detected_crl_sections": [
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "f0090a01aef87f7195b205135040552e5b6a3d9019d2a5eacb842512aaffb705",
+      "index_rank_2026": 24
+    },
+    {
+      "iso_letter_date": "2026-06-26",
+      "letter_date_raw": "06/26/2026",
+      "application_number": "BLA 761438",
+      "company_name": "Swedish Orphan Biovitrum AB (publ)",
+      "fda_reference_id": "5823777",
+      "file_name": "CRL_BLA761438_20260626_Redacted.pdf",
+      "detected_crl_sections": [
+        "PRODUCT QUALITY",
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "3c05a63859c662e71898ce635fd28c0956d786f5ce861e68a6b8e502f5f34397",
+      "index_rank_2026": 25
+    },
+    {
+      "iso_letter_date": "2026-06-26",
+      "letter_date_raw": "06/26/2026",
+      "application_number": "NDA 216900",
+      "company_name": "Evergreen Theragnostics, Inc.",
+      "fda_reference_id": "5822725",
+      "file_name": "CRL_NDA216900_20260626_Redacted.pdf",
+      "detected_crl_sections": [
+        "PRODUCT QUALITY",
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "1c848ad6995018561cde54087e6672784cf05943d0407752df8658585376136e",
+      "index_rank_2026": 26
+    },
+    {
+      "iso_letter_date": "2026-06-29",
+      "letter_date_raw": "06/29/2026",
+      "application_number": "BLA 761311",
+      "company_name": "Ipsen Biopharm Ltd.",
+      "fda_reference_id": "5825319",
+      "file_name": "CRL_BLA761311_20260629_Redacted.pdf",
+      "detected_crl_sections": [
+        "PRODUCT QUALITY",
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "a159054b1ac87bb8c241a29df2524cf78d352f86664162edeab67adb6e2209ab",
+      "index_rank_2026": 27
+    },
+    {
+      "iso_letter_date": "2026-06-29",
+      "letter_date_raw": "06/29/2026",
+      "application_number": "NDA 218607",
+      "company_name": "Unicycive Therapeutics Inc.",
+      "fda_reference_id": "5825414",
+      "file_name": "CRL_NDA218607_20260629.pdf",
+      "detected_crl_sections": [
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "8db54ae31a418ef1514ebf74be603fc85ea0eb06757f3a2f7f77a983259eb0f3",
+      "index_rank_2026": 28
+    },
+    {
+      "iso_letter_date": "2026-07-02",
+      "letter_date_raw": "07/02/2026",
+      "application_number": "NDA 220544",
+      "company_name": "Ascelia Pharma AB",
+      "fda_reference_id": "5827914",
+      "file_name": "CRL_NDA220544_20260702_Redacted.pdf",
+      "detected_crl_sections": [
+        "CLINICAL",
+        "PRODUCT QUALITY",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "269834775f7bf3cee492f3bd915ad5f654e17c22a62a2d875fd402db105a52d8",
+      "index_rank_2026": 29
+    },
+    {
+      "iso_letter_date": "2026-07-09",
+      "letter_date_raw": "07/09/2026",
+      "application_number": "BLA 761308",
+      "company_name": "Jiangsu Hengrui Pharmaceuticals Co., Ltd.",
+      "fda_reference_id": "5830559",
+      "file_name": "CRL_BLA761308_20260709_Redacted.pdf",
+      "detected_crl_sections": [
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "bfc73251c02df21b58f62983c5addce9d4861b64735ff20ac36d73151e54043c",
+      "index_rank_2026": 30
+    },
+    {
+      "iso_letter_date": "2026-07-09",
+      "letter_date_raw": "07/09/2026",
+      "application_number": "NDA 216586",
+      "company_name": "Elevar Therapeutics Inc.",
+      "fda_reference_id": "5830543",
+      "file_name": "CRL_NDA216586_20260709_Redacted.pdf",
+      "detected_crl_sections": [
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "679583c5c44b75c16819c1d423e8b0d5b386bf3cf89bd403a1852700911ead31",
+      "index_rank_2026": 31
+    },
+    {
+      "iso_letter_date": "2026-07-21",
+      "letter_date_raw": "07/21/2026",
+      "application_number": "NDA 219107",
+      "company_name": "Apiject Systems Corp.",
+      "fda_reference_id": "5838071",
+      "file_name": "CRL_NDA219107_20260721.pdf",
+      "detected_crl_sections": [
+        "HUMAN FACTORS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE"
+      ],
+      "structural_deficiency_domains": [
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "DEVICE_CONSTITUENT_HUMAN_FACTORS",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "98bed93d78ea4b017a2e5d5310369a9491bfb947548ddd4a3385f797d95236ba",
+      "index_rank_2026": 32
+    },
+    {
+      "iso_letter_date": "2026-08-07",
+      "letter_date_raw": "08/07/2026",
+      "application_number": "NDA 218705",
+      "company_name": "ITM Solucin GmbH",
+      "fda_reference_id": "5848620",
+      "file_name": "CRL_NDA218705_20260807.pdf",
+      "detected_crl_sections": [
+        "PRODUCT QUALITY",
+        "FACILITY INSPECTIONS",
+        "PRESCRIBING INFORMATION",
+        "SAFETY UPDATE",
+        "PRODUCT QUALITY MICROBIOLOGY"
+      ],
+      "structural_deficiency_domains": [
+        "CMC_AND_FACILITY_CGMP",
+        "CLINICAL_EFFICACY_OR_BIOMARKER",
+        "CLINICAL_SAFETY_RISK_BENEFIT",
+        "LABELING_AND_PACKAGING"
+      ],
+      "estimated_resubmission_class": "CLASS_2_6_MONTH",
+      "openfda_canonical_sha256": "24fa6f00441a2973ce6e65b044baf7d186770ec88ad2f8cb2cf49098e0ba1bfa",
+      "index_rank_2026": 33
+    }
+  ],
+  "gxp_ai_and_faers_2026_benchmark_anchors": {
+    "warning_letters_analyzed": [
+      {
+        "wl_id": "26-HFD-45-03-01",
+        "case_id": "717576",
+        "issue_date": "2026-03-05",
+        "recipient": "Novo Nordisk Inc.",
+        "cfr_citation": "21 CFR 314.80(c)(1)(i) & 314.80(b)",
+        "structural_failure_mode": "Delayed PADE 15-day Alert Reports & premature case invalidation via rigid reporter-confirmation SOPs."
+      },
+      {
+        "wl_id": "320-26-58",
+        "case_id": "MARCS-CMS 722591",
+        "issue_date": "2026-04-02",
+        "recipient": "Purolea Cosmetics Lab Co., Ltd.",
+        "cfr_citation": "21 CFR 211.22(c) & 211.68",
+        "structural_failure_mode": "Deployment of unvalidated generative AI documentation in CGMP records without Quality Unit oversight or immutable audit trails."
+      }
+    ],
+    "uspi_reference_anchors": {
+      "ozempic_uspi": {
+        "effective_time": "20260130",
+        "set_id": "27f15fac-7d98-4114-a2ec-92494a91da98",
+        "canonical_sha256": "ce34c564702ddaa40945ef3bef34e82adf2a2f2fbcb55bf35aa00f83be2ef4a1"
+      },
+      "mounjaro_uspi": {
+        "effective_time": "20260729",
+        "set_id": "0818426a-53eb-4db7-9609-bbae1e7a3964",
+        "canonical_sha256": "0da414ec8e226bd87990b616545e723c6f64cefd94ae118fa476362754150fc3"
+      }
+    },
+    "faers_2025_2026_query_sha256": {
+      "mah_novo_serious_nonexp_top20": "46f6470ce44a1514d45a11099865106a38c7eedfd4b3a966cb66e1971d853a42",
+      "mah_lilly_serious_nonexp_top20": "7795692fea2c278e4910a03dcc06d427c969a1830012500df3151b067786f09f",
+      "sema_serious_nonexpedited_top25": "84ab1f852e0cbfd69af9be3e8a892ae122e89d1e4a41445dca1808c0c560c180",
+      "tirz_serious_nonexpedited_top25": "35105693464e5550c18f7e490a6df1c9b679ad5379504107ba2ed6af75f0125e"
+    }
+  }
+}

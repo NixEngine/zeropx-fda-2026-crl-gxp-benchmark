@@ -1,0 +1,42 @@
+{
+  "manifest_version": "1.2.0",
+  "release_date": "2026-11-13",
+  "zenodo_archival_doi": "10.5281/zenodo.24201727",
+  "note": "Preserves frozen v1.0 Zenodo archival files byte-for-byte while adding v1.2 strict verifiers, 256-bit salted commitments, vendored offline verifiers, and v1.2 methodology clarifications.",
+  "preserved_v1_0_zenodo_files_md5": {
+    "public_commitment_registry_20261113.json": "5416e06667e8d8eb8de2f6003e9deab3",
+    "public_showcase_master_ledger.jsonl": "0248f6c3f1f6f4033da9f2e5ad23a4fd",
+    "REPORT_01_FDA_2026_CRL_AND_GLP1_GXP_AI_BENCHMARK.md": "ccfcdba028c8b7df24b993659ae3484f",
+    "REPORT_01_FDA_2026_CRL_AND_GLP1_GXP_AI_BENCHMARK.pdf": "6e79bbd0b8a8ab500971ac7811f3385f",
+    "verify_fda_gxp_benchmark.py": "b1762b51818f623a3c81d58d7215dbc7"
+  },
+  "files_sha256": {
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    ".gitignore": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+    "CITATION.cff": "d1b0d258bae249925824e2c80be6fd03a4e7767a128629c6b6506fb40b0184f9",
+    "LICENSE": "12ae75de5da1c5ff217fe3c19ba61b099ba4fbc9507f8e1f4bebbcd5aba1c534",
+    "poseidon2_goldilocks/__init__.py": "c268e48b80c98e332b3bb8e5840777141def7bb9fb799313bda282846ee7e468",
+    "poseidon2_goldilocks/constants.py": "91781d3bd36d399af647aeeb4c9026e36c1a3f05dacd8140120dce2aee9d4d6c",
+    "poseidon2_goldilocks/goldilocks.py": "66c233de2e91a7f0ad7fb762d7e6e0d534ca2a739dfefda8820c9490f3259724",
+    "poseidon2_goldilocks/merkle.py": "5c4c9e3cb9e5ddfba6b3c947c98619a63d4789e114b473eb3df0c380fcef16cb",
+    "poseidon2_goldilocks/permutation.py": "8f46ac654574ec0fe5ce2b2eae01dbcfc01fd831e371a30ee02d131b1498fd93",
+    "poseidon2_goldilocks/sponge.py": "2a9d710919d3ff3ba83384263625d4e37e801f47673b03a5a83e83e753facdf4",
+    "public_commitment_registry_20261113.json": "2b40ca2d7632bc6018675534153ea7f211bbfff82819c5e24dffc5738139442e",
+    "public_showcase_master_ledger.jsonl": "36db94a6ae40f32d5817d10eea28277e8548bfb20eadb8fbe7e2f1b3c9980f7d",
+    "README.md": "82895d27fda86afba3874395dc1f587df204cb1d09a5cf025523350294bda1f2",
+    "receipt_chain/__init__.py": "e92a382dc790c26e1ed976a329f790eb4817b8b3a2a201bf4081ebe8083e3594",
+    "receipt_chain/cli.py": "e3f8a77bb39f822715be2135d5be8239733a0d7df07ef225d842b3688ecb587a",
+    "receipt_chain/core.py": "1bf975387629d437418cc17c7152bfdf87ed64da3076d1f1d2bdcf6e1ae735de",
+    "receipt_chain/ledger.py": "f9aa8ff89f0c26e4340f32d6a27ac8200ca66592e37e737d2683520638e7c54d",
+    "receipt_chain/seal.py": "fd34c8aa993920c0d39adb91cb5334fe9a0831343a9cce50625d01446a40731d",
+    "receipt_chain/summary.py": "dd1215ba5f734bf3e524627f60280a5d85bc1fe2915e0af7e1258ef62ea216f4",
+    "REPORT_01_FDA_2026_CRL_AND_GLP1_GXP_AI_BENCHMARK.md": "f84b3efad061c2df3e451a8386e26acc065e163bcff99820800e18168c71e42e",
+    "REPORT_01_FDA_2026_CRL_AND_GLP1_GXP_AI_BENCHMARK.pdf": "da7e8e9fd1e44b0c0c0f6fda410b4f562e3e64225add131cd2fb6af704590594",
+    "salted_commitment_registry_v1_1_256bit.json": "4a8b19d06751e19d71f96a81d1b878cec5e157033803bd294924411d0371e27e",
+    "schemas/semaglutide_uspi_bitemporal_lock.json": "eeedfc46a8bcf47d03c9d99149c2b3e79440182cac3c92aba1fb7e177f087609",
+    "schemas/semaglutide_uspi_sec5_sec6_strict.json": "55c981b15a672266c2c949e93da5212d110da61ec1b834c73fb88ca62b820f63",
+    "scripts/faers_strict_bitemporal_filter.py": "85693f6fcac65e9f98a7352ee7c04614cb775372188424c21a909ae5804a9ff3",
+    "verify_fda_gxp_benchmark.py": "588951b48718f7f88fb2d6fb733d036b947d9970bfbfbe31d1f983e10b9ab72f",
+    "verify_strict_v1_2.py": "753f162410b6386a8409da3543f9e46cab4827fb4a2c7145683cb612ad5ce4dc"
+  }
+}

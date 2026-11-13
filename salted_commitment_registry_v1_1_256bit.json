@@ -1,0 +1,79 @@
+{
+  "schema": "zeropx.salted-poseidon2-selective-commitment-registry/v1.1",
+  "zenodo_anchor_doi": "10.5281/zenodo.24201727",
+  "terminology_precision": "Salted algebraic Poseidon2 Merkle commitments over Goldilocks p = 2^64 - 2^32 + 1 with 256-bit CSPRNG per-leaf salts preventing low-entropy brute-force preimage attacks; distinct from SNARK/STARK zero-knowledge proofs.",
+  "salted_docket_commitments": [
+    {
+      "docket_id": "NDA 220138",
+      "commitment_type": "Poseidon2-Goldilocks Salted Selective-Disclosure Merkle Commitment (256-bit CSPRNG salt per leaf; non-SNARK)",
+      "zenodo_v1_0_merkle_root": null,
+      "salted_v1_1_poseidon2_root": "aaf9038e31a2eea39eef2f55f72eeb48e09d9ce5b237bd221fb92614bd1cb7f3",
+      "disclosed_public_leaf_salts_3_to_5": [
+        "46754299a2fe63477a74d71b7ea47e7d3c02c8d9fdc0e25207f989fb58ea120d",
+        "37906430d69f076855555e8872b11743a2f37fd0a389861be2df4bff29a38da2",
+        "353db54c8118fb3cceac9aa74cc5f1af87fc6ffa3c023a5ab27db04763ba2006"
+      ],
+      "confidential_nda_leaves_0_to_2_salted": true
+    },
+    {
+      "docket_id": "NDA 217644",
+      "commitment_type": "Poseidon2-Goldilocks Salted Selective-Disclosure Merkle Commitment (256-bit CSPRNG salt per leaf; non-SNARK)",
+      "zenodo_v1_0_merkle_root": null,
+      "salted_v1_1_poseidon2_root": "e7d3a2888e53a5040be95d7a8cf17681ddf9f9a14f1f01312dea2930d8e5ed15",
+      "disclosed_public_leaf_salts_3_to_5": [
+        "89ae6090f3620b2f8eed77d6e414abbc67d5598136daac2767bd10644115e08e",
+        "20431470d00adc73d0d333d41d41ea70de4918ecfe53be763148b88c12665961",
+        "82bd7cf611f943296514ea80902d1edbfe849bd89df2e72138a888d0b8726a0f"
+      ],
+      "confidential_nda_leaves_0_to_2_salted": true
+    },
+    {
+      "docket_id": "NDA 220544",
+      "commitment_type": "Poseidon2-Goldilocks Salted Selective-Disclosure Merkle Commitment (256-bit CSPRNG salt per leaf; non-SNARK)",
+      "zenodo_v1_0_merkle_root": null,
+      "salted_v1_1_poseidon2_root": "305e6c99bca3c73a8d4eebf6c5a11f701a435c649d0422bdc68d7af3998a24d8",
+      "disclosed_public_leaf_salts_3_to_5": [
+        "8ce3695d3ed31f8c0f8422200ff512d0ce0f013deab00f7d68e3b12282652a2a",
+        "3cbacaeeb97e3e1ad49cdbd5abe10e72240d8a119a786305f2ede438a357497e",
+        "369c8608a3d1ccb74bb91b7e7b74c1289b4d1e2f3dc2176e11ca3a9f0a176139"
+      ],
+      "confidential_nda_leaves_0_to_2_salted": true
+    },
+    {
+      "docket_id": "NDA 219107",
+      "commitment_type": "Poseidon2-Goldilocks Salted Selective-Disclosure Merkle Commitment (256-bit CSPRNG salt per leaf; non-SNARK)",
+      "zenodo_v1_0_merkle_root": null,
+      "salted_v1_1_poseidon2_root": "ad6b6d05e79f3490af20786f52a36c197f59e3f305c6653d51b5348ef07a82a8",
+      "disclosed_public_leaf_salts_3_to_5": [
+        "896a7d363e0b939f42c34b7ce1b9845ba01a5bcde315697cca2dbfbb63503326",
+        "41aff892c3349736b586397ebf9c84307ce594ddf5a120656e1b92bd8ba23b1b",
+        "7b962cdd953df8400be95536644d4f82b768cdadad7ae5d6cb299b2e74413eb3"
+      ],
+      "confidential_nda_leaves_0_to_2_salted": true
+    },
+    {
+      "docket_id": "NDA 216586 + BLA 761308",
+      "commitment_type": "Poseidon2-Goldilocks Salted Selective-Disclosure Merkle Commitment (256-bit CSPRNG salt per leaf; non-SNARK)",
+      "zenodo_v1_0_merkle_root": null,
+      "salted_v1_1_poseidon2_root": "ee92db933307a524d1e62b320c9a339136d613109789aac43604dc5b9116625f",
+      "disclosed_public_leaf_salts_3_to_5": [
+        "097b9500fcff39078b6b4b231d38cb3ab7c386dbc2e1f34fa02d31daed1a71eb",
+        "72f38c3a2a489948773518a086c93fa96cf71dfd57663c81b0a4896709ab575f",
+        "b9ba2113ab68ced5088c73bfe5e481e51253ae0fe95f9eb66744f9f83c5917ca"
+      ],
+      "confidential_nda_leaves_0_to_2_salted": true
+    },
+    {
+      "docket_id": "NDA 218705",
+      "commitment_type": "Poseidon2-Goldilocks Salted Selective-Disclosure Merkle Commitment (256-bit CSPRNG salt per leaf; non-SNARK)",
+      "zenodo_v1_0_merkle_root": null,
+      "salted_v1_1_poseidon2_root": "a481c1b19819f79609fa865543229427e48bccd15b447ac2d85ac2d0d7828c03",
+      "disclosed_public_leaf_salts_3_to_5": [
+        "65483882b44db4a9b6ab6c5077073e115f3e1a707b24b3fb551be780411cc1ea",
+        "4a9aa0a473facb2454e54d4f5066b86e4fb230d728b9074dfe4d6a24ea77b55b",
+        "ad27c049d0b9ed1f8046bd5925a102b0503d650873f8979063cf8aef2bfb2c33"
+      ],
+      "confidential_nda_leaves_0_to_2_salted": true
+    }
+  ]
+}
